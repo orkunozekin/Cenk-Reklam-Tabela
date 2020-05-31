@@ -63,6 +63,7 @@ nav li {
 
 h2 {
   text-align: center;
+  margin-top: 30px
 }
 
 #hakkimizda p {
@@ -93,6 +94,10 @@ h2 {
    text-decoration: none;
    color: #E65100;
    font-size: 17px;
+ }
+
+ .hizmet-listesi {
+   margin-top: 30px;
  }
 
  .isiksiz-tabela {
