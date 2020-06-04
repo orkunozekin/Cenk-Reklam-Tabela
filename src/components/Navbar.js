@@ -8,7 +8,7 @@ export default class Navbar extends React.Component {
         return (
             <nav className="navbar">
                     <i className="fa fa-bars">
-                        <NavDropdown title=""  >
+                    <NavDropdown title=""  >
                             <NavDropdown.Item href="/">Ana Sayfa</NavDropdown.Item>
                             <NavDropdown.Item href="/hakkimizda">Hakkımızda</NavDropdown.Item>
                             <NavDropdown.Item href="/hizmetlerimiz">Hizmetlerimiz</NavDropdown.Item>
