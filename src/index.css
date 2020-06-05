@@ -28,7 +28,8 @@ header {
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color:#eceff1
+  background-color:#eceff1;
+  
 }
 
 i {
@@ -90,7 +91,7 @@ h2 {
   list-style-type: none;
 } 
 
- .hizmet-listesi a {
+ #hizmet-listesi a {
    text-decoration: none;
    color: #E65100;
    font-size: 17px;
@@ -108,6 +109,10 @@ h2 {
    text-align: center;
  }
 
+ .iletisim {
+   margin-top: 30px;
+ }
+
  .iletisim p {
    margin-left: 5%;
  }
@@ -116,3 +121,15 @@ h2 {
    margin-left: 5%;
    margin-top: 20%;
  }
+
+ .fa-angle-double-up {
+   font-size: larger;
+   color: black;
+   position: fixed;
+   transition: top 0.3s;
+ }
+
+ 
+ i{ font-family: 'FontAwesome' }
+
+ /* Think about switching to a state modeled app */
