@@ -1,12 +1,10 @@
 import React from 'react';
-import Header from './components/Header';
+import Header from '../Header/Header';
 import { Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Hakkimizda from './components/Hakkimizda'
-import Hizmetlerimiz from './components/Hizmetlerimiz';
-import Iletisim from './components/Iletisim';
-import UserContext from './components/ContextCreater';
-
+import Hakkimizda from '../Hakkimizda/Hakkimizda'
+import Hizmetlerimiz from '../Hizmetlerimiz/Hizmetlerimiz';
+import Iletisim from '../Iletisim/Iletisim';
+import UserContext from '../ContextCreater';
 
 
 
@@ -24,7 +22,6 @@ export default class extends React.Component {
         }}
       >
         <main className="App">
-          <Navbar />
           <Header />
           <Route path="/hakkimizda" exact component={Hakkimizda} />
           <Route path="/hizmetlerimiz" exact component={Hizmetlerimiz} />
