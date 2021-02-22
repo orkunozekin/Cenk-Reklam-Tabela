@@ -2,6 +2,7 @@ import React from 'react';
 import './Hizmetlerimiz.css';
 import { FaArrowCircleUp } from 'react-icons/fa';
 import ZoomSlide from './ZoomSlide';
+import STORE from '../STORE';
 
 export default class Hizmetlerimiz extends React.Component {
     render() {
@@ -23,9 +24,7 @@ export default class Hizmetlerimiz extends React.Component {
                     <li><a href="#duba-list">Duba</a></li>
                 </ul>
 
-                <div className="all-hizmetler">
-                    <ZoomSlide />
-                </div>
+                <ZoomSlide />
             </section>
         )
     }

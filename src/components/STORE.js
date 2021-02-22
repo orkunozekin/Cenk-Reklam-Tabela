@@ -41,16 +41,6 @@ import duba2 from '../images/duba/duba2.jpg';
 const STORE = [
 
     {
-        name: 'Dijital Baski',
-        images: [
-            {
-                img: dijitalBaski,
-                name: 'dijital-baski'
-            }
-        ]
-    },
-
-    {
         name: 'Isikli Tabela',
         images: [
             {
@@ -101,6 +91,16 @@ const STORE = [
             {
                 img: mado,
                 name: 'mado'
+            }
+        ]
+    },
+
+    {
+        name: 'Dijital Baski',
+        images: [
+            {
+                img: dijitalBaski,
+                name: 'dijital-baski'
             }
         ]
     },
