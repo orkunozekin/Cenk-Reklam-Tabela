@@ -38,49 +38,60 @@ import duba from '../images/duba/duba1.jpg';
 import duba2 from '../images/duba/duba2.jpg';
 
 
-const STORE = {
+const STORE = [
 
-    DijitalBaski: [
-        {
-            img: dijitalBaski,
-            name: 'dijital-baski'
-        }
-    ],
-
-    IsikliTabela: [
-        {
-            img: levis,
-            name: 'levis'
-        },
-        {
-            img: beautyatelier,
-            name: 'beautyatelier'
-        },
-        {
-            img: anadoluAtesi,
-            name: 'anadolu-atesi'
-        }
-    ],
-
-
-    IsiksizTabela: [
-        {
-            img: northFace,
-            name: 'north-face'
-        },
-        {
-            img: atlasya,
-            name: 'atlasya'
-        },
-        {
-            img: disHekimi,
-            name: 'dis-hekimi'
-        }
-    ],
-
-        KutuHarf: [
+    {
+        name: 'Dijital Baski',
+        images: [
             {
-                img: foodKraft,  
+                img: dijitalBaski,
+                name: 'dijital-baski'
+            }
+        ]
+    },
+
+    {
+        name: 'Isikli Tabela',
+        images: [
+            {
+                img: levis,
+                name: 'levis'
+            },
+            {
+                img: beautyatelier,
+                name: 'beautyatelier'
+            },
+            {
+                img: anadoluAtesi,
+                name: 'anadolu-atesi'
+            }
+        ]
+    },
+
+
+    {
+        name: 'Isiksiz Tabela',
+        images: [
+            {
+                img: northFace,
+                name: 'north-face'
+            },
+            {
+                img: atlasya,
+                name: 'atlasya'
+            },
+            {
+                img: disHekimi,
+                name: 'dis-hekimi'
+            }
+        ]
+    },
+
+    {
+        name: 'Kutu Harf',
+        images: [
+            {
+                img: foodKraft,
                 name: 'food-kraft'
             },
             {
@@ -90,18 +101,13 @@ const STORE = {
             {
                 img: mado,
                 name: 'mado'
-            },
-            {
-                img: defacto,
-                name: 'defacto'
-            },
-            {
-                img: toyzz,
-                name: 'toyzz'
             }
-        ],
+        ]
+    },
 
-        KromHarf: [
+    {
+        name: 'Krom Harf',
+        images: [
             {
                 img: bosch,
                 name: 'bosch'
@@ -118,9 +124,12 @@ const STORE = {
                 img: godiva,
                 name: 'godiva'
             }
-        ],
+        ]
+    },
 
-        PleksiHarf: [
+    {
+        name: 'Pleksi Harf',
+        images: [
             {
                 img: hukuk,
                 name: 'hukuk'
@@ -133,97 +142,101 @@ const STORE = {
                 img: bnb,
                 name: 'bnb'
             },
-    ],
-        
-    LightBox: [
-        {
-            img: usPolo,
-            name: 'us-polo'
-        },
-        {
-            img: levisLightBox,
-            name: 'levis-light-box'
-        },
-        {
-            img: adidas,
-            name: 'adidas'
-        },
-    ],
+        ]
+    },
 
-    
-    CamKaplama: [
-        {
-            img: hurriyet,
-            name: 'hurriyet'
-        },
-        {
-            img: mobilya,
-            name: 'mobilya'
-        },
-        {
-            img: kure,
-            name: 'kure'
-        }
-    ],
-
-    YelkenBayrak: [
-        {
-            img: petshop,
-            name: 'petshop'
-        },
-        {
-            img: pilates,
-            name: 'pilates'
-        },
-        {
-            img: narCicegi,
-            name: 'nar-cicegi'
-        }
-    ],
-
-    AracKaplama: [
-        {
-            img: aracKaplama1,
-            name: 'hasekioglu'
-        },
-        {
-            img: aracKaplama2,
-            name: 'anadolu-atesi'
-        },
-        {
-            img: defender,
-            name: 'defender'
-        },
-        {
-            img: vinc,
-            name: 'vinc'
-        },
-        {
-            img: leke,
-            name: 'leke'
-        },
-        {
-            img: karavan,
-            name: 'karavan'
-        },
-        {
-            img: truck,
-            name: 'truck'
-        }
-    ],
-
-    Duba : [
-        {
-            img: duba,
-            name: 'duba'
-        },
-        {
-            img: duba2,
-            name: 'duba2'
-        }
-    ]
+    {
+        name: 'Light Box',
+        images: [
+            {
+                img: usPolo,
+                name: 'us-polo'
+            },
+            {
+                img: levisLightBox,
+                name: 'levis-light-box'
+            },
+            {
+                img: adidas,
+                name: 'adidas'
+            },
+        ]
+    },
 
 
-}
+    {
+        name: 'Cam Kaplama',
+        images: [
+            {
+                img: hurriyet,
+                name: 'hurriyet'
+            },
+            {
+                img: mobilya,
+                name: 'mobilya'
+            },
+            {
+                img: kure,
+                name: 'kure'
+            }
+        ]
+    },
+
+    {
+        name: 'Yelken Bayrak',
+        images: [
+            {
+                img: petshop,
+                name: 'petshop'
+            },
+            {
+                img: pilates,
+                name: 'pilates'
+            },
+            {
+                img: narCicegi,
+                name: 'nar-cicegi'
+            }
+        ]
+    },
+
+    {
+        name: 'Arac Kaplama',
+        images: [
+            {
+                img: aracKaplama1,
+                name: 'hasekioglu'
+            },
+            {
+                img: aracKaplama2,
+                name: 'anadolu-atesi'
+            },
+            {
+                img: defender,
+                name: 'defender'
+            },
+            {
+                img: truck,
+                name: 'truck'
+            }
+        ]
+    },
+
+    {
+        name: 'Duba',
+        images: [
+            {
+                img: duba,
+                name: 'duba'
+            },
+            {
+                img: duba2,
+                name: 'duba2'
+            }
+        ]
+    }
+
+
+]
 
 export default STORE
