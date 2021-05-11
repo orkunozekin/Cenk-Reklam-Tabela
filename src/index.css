@@ -1,135 +1,41 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #FFFFF0;
-  
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #FFFFF0;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 img {
-  margin-top: 20%;
-}
-
-header {
-  text-align: center;
-}
-
-.navbar {
-  text-align: center;
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  background-color:#eceff1;
-  
-}
-
-i {
-  margin-left: 80%;
-  margin-top: 5px
-}
-
-.nav-link {
-  margin-bottom: -7px;
-}
-
-.dropdown-toggle:empty::after {
-  display: none;
-}
-
-
-nav ul {
-  display: flex;
-  margin-left: -12%;
-}
-
-nav li {
-  padding: 2px;
-  list-style-type: none;
-}
-
-
-.nav-a {
-  text-decoration: none;
-  color: black;
+    margin-top: 20%;
 }
 
 h2 {
-  text-align: center;
-  margin-top: 30px
+    text-align: center;
+    margin-top: 30px
 }
 
 #hakkimizda p {
-  text-align: center;
+    text-align: center;
 }
-
-.orcun {
-  margin-left: 30px;
-}
-
 
 /* IMAGES */
-.all-hizmetler ul {
-  margin-left: -13%;
+
+.iletisim {
+    margin-top: 30px;
 }
 
-.all-hizmetler img {
-  margin-top: 0;
-  margin-bottom: 20%;
-  width: 100%;
+.iletisim p {
+    margin-left: 5%;
 }
 
-.all-hizmetler li {
-  list-style-type: none;
-} 
+.iletisim address {
+    margin-left: 5%;
+    margin-top: 20%;
+}
 
- #hizmet-listesi a {
-   text-decoration: none;
-   color: #E65100;
-   font-size: 17px;
- }
-
- .hizmet-listesi {
-   margin-top: 30px;
- }
-
- .isiksiz-tabela {
-   width: 100%;
- }
-
- h3 {
-   text-align: center;
- }
-
- .iletisim {
-   margin-top: 30px;
- }
-
- .iletisim p {
-   margin-left: 5%;
- }
-
- .iletisim address {
-   margin-left: 5%;
-   margin-top: 20%;
- }
-
- .fa-angle-double-up {
-   font-size: larger;
-   color: black;
-   position: fixed;
-   transition: top 0.3s;
- }
-
- 
- i{ font-family: 'FontAwesome' }
-
- /* Think about switching to a state modeled app */
+/* Think about switching to a state modeled app */

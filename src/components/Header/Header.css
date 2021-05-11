@@ -1,0 +1,8 @@
+.logo {
+    margin: 0 auto;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-evenly;
+}
