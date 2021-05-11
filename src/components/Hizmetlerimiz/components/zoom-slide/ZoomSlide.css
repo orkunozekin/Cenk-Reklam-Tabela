@@ -1,0 +1,20 @@
+@media only screen and (min-width: 700px) {
+  .zoom-slide-wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .zoom-slide-wrapper>h3 {
+    margin-bottom: -50px;
+  }
+  .slide-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .react-slideshow-zoom-wrapper {}
+}
+
+.img {
+  max-height: 300px;
+}

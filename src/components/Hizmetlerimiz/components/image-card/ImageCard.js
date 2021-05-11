@@ -1,6 +1,6 @@
 import React from 'react'
 import { Image } from 'react-bootstrap';
-import STORE from '../STORE';
+import STORE from '../../../STORE';
 import './Hizmetlerimiz.css';
 
 const ImageCard = (props) => {

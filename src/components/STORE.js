@@ -41,6 +41,7 @@ import duba2 from '../images/duba/duba2.jpg';
 const STORE = [
 
     {
+        id: 'isikli-tabela',
         name: 'Isikli Tabela',
         images: [
             {
@@ -60,6 +61,7 @@ const STORE = [
 
 
     {
+        id: 'isiksiz-tabela',
         name: 'Isiksiz Tabela',
         images: [
             {
@@ -78,6 +80,7 @@ const STORE = [
     },
 
     {
+        id: 'kutu-harf',
         name: 'Kutu Harf',
         images: [
             {
@@ -95,17 +98,19 @@ const STORE = [
         ]
     },
 
-    {
-        name: 'Dijital Baski',
-        images: [
-            {
-                img: dijitalBaski,
-                name: 'dijital-baski'
-            }
-        ]
-    },
+    // {
+    //     id: 'dijital-baski',
+    //     name: 'Dijital Baski',
+    //     images: [
+    //         {
+    //             img: dijitalBaski,
+    //             name: 'dijital-baski'
+    //         }
+    //     ]
+    // },
 
     {
+        id: 'krom-harf',
         name: 'Krom Harf',
         images: [
             {
@@ -128,6 +133,7 @@ const STORE = [
     },
 
     {
+        id: 'pleksi-harf',
         name: 'Pleksi Harf',
         images: [
             {
@@ -146,6 +152,7 @@ const STORE = [
     },
 
     {
+        id: 'light-box',
         name: 'Light Box',
         images: [
             {
@@ -165,6 +172,7 @@ const STORE = [
 
 
     {
+        id: 'cam-kaplama',
         name: 'Cam Kaplama',
         images: [
             {
@@ -183,6 +191,7 @@ const STORE = [
     },
 
     {
+        id: 'yelken-bayrak',
         name: 'Yelken Bayrak',
         images: [
             {
@@ -201,6 +210,7 @@ const STORE = [
     },
 
     {
+        id: 'arac-kaplama',
         name: 'Arac Kaplama',
         images: [
             {
@@ -223,6 +233,7 @@ const STORE = [
     },
 
     {
+        id: 'duba',
         name: 'Duba',
         images: [
             {

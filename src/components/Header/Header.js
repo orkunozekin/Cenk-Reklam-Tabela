@@ -23,9 +23,6 @@ export default function Header(props) {
                             <li className="nav-item">
                                 <a className="nav-link" href="/iletisim">Iletisim</a>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="/hakkimizda">Hakkimizda</a>
-                            </li>
                         </ul>
                     </div>
                 </div>
