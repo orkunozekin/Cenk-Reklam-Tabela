@@ -1,11 +1,10 @@
 import React from 'react';
-import logo from '../../images/favicon.ico';
 import './Header.css';
 
-export default function Header(props) {
+const Header = (props) => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/">Cenk Reklam</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -15,7 +14,7 @@ export default function Header(props) {
                     <div className="collapse navbar-collapse" id="navbarText">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/">Ana Sayfa</a>
+                                <a className="nav-link" aria-current="page" href="/">Ana Sayfa</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="/hizmetlerimiz">Hizmetlerimiz</a>
@@ -31,3 +30,5 @@ export default function Header(props) {
         </>
     )
 }
+
+export default Header

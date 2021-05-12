@@ -1,8 +1,9 @@
-.logo {
-    margin: 0 auto;
-}
-
 .navbar-nav {
     display: flex;
     justify-content: space-evenly;
+}
+
+.navbar {
+    background-color: orange;
+    margin-bottom: 5vh;
 }

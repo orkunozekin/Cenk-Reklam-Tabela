@@ -1,40 +1,27 @@
-import React from 'react';
-import Header from '../Header/Header';
-import { Route } from 'react-router-dom';
-import Hizmetlerimiz from '../Hizmetlerimiz/Hizmetlerimiz';
-import Iletisim from '../Iletisim/Iletisim';
-import UserContext from '../ContextCreater';
-import './App.css';
-import Home from '../Home/Home';
+import React from 'react'
+import Header from '../Header/Header'
+import { Route, Switch } from 'react-router-dom'
+import Hizmetlerimiz from '../Hizmetlerimiz/Hizmetlerimiz'
+import Iletisim from '../Iletisim/Iletisim'
+import UserContext from '../ContextCreater'
+import './App.css'
+import Home from '../Home/Home'
 
 
-export default class extends React.Component {
+const App = () => {
 
-
-
-  render() {
-
-    return (
-
-      <UserContext.Provider
-        value={{
-
-        }}
-      >
-        <main className="app">
-          <Header />
-          <div className="routes">
-            <Route path="/" exact component={Home} />
-            <Route path="/hizmetlerimiz" exact component={Hizmetlerimiz} />
-            <Route path="/iletisim" exact component={Iletisim} />
-          </div>
-        </main>
-      </UserContext.Provider>
-    );
-
-
-  }
-
+  return (
+    <main className="app">
+      <Header />
+      <Switch className="routes">
+        <Route path="/" exact component={Hizmetlerimiz} />
+        <Route path="/hizmetlerimiz" exact component={Hizmetlerimiz} />
+        <Route path="/iletisim" exact component={Iletisim} />
+      </Switch>
+    </main>
+  )
 }
+
+export default App
 
 
