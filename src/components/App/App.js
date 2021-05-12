@@ -15,7 +15,7 @@ const App = () => {
       <Header />
       <Switch className="routes">
         <Route path="/" exact component={Hizmetlerimiz} />
-        <Route path="/hizmetlerimiz" exact component={Hizmetlerimiz} />
+        {/* <Route path="/hizmetlerimiz" exact component={Hizmetlerimiz} /> */}
         <Route path="/iletisim" exact component={Iletisim} />
       </Switch>
     </main>
