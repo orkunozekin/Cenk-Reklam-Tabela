@@ -16,9 +16,9 @@ const Header = (props) => {
                             <li className="nav-item">
                                 <a className="nav-link" aria-current="page" href="/">Ana Sayfa</a>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <a className="nav-link" href="/hizmetlerimiz">Hizmetlerimiz</a>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
                                 <a className="nav-link" href="/iletisim">Iletisim</a>
                             </li>
