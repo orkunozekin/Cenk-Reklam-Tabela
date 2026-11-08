@@ -6,19 +6,23 @@ import Iletisim from '../Iletisim/Iletisim'
 import UserContext from '../ContextCreater'
 import './App.css'
 import Home from '../Home/Home'
+import Footer from '../Footer/Footer'
 
 
 const App = () => {
 
   return (
-    <main className="app">
+    <div className="app">
       <Header />
-      <Switch className="routes">
-        <Route path="/" exact component={Hizmetlerimiz} />
-        {/* <Route path="/hizmetlerimiz" exact component={Hizmetlerimiz} /> */}
-        <Route path="/iletisim" exact component={Iletisim} />
-      </Switch>
-    </main>
+      <main>
+        <Switch className="routes">
+          <Route path="/" exact component={Hizmetlerimiz} />
+          {/* <Route path="/hizmetlerimiz" exact component={Hizmetlerimiz} /> */}
+          <Route path="/iletisim" exact component={Iletisim} />
+        </Switch>
+      </main>
+      <Footer />
+    </div>
   )
 }
 
